@@ -1,0 +1,26 @@
+-- Subir arquivo GITHUB através do PROMPT de comando ---
+1. Criar repositório no github e salvar o link gerado. 
+2. Ir na pasta onde estão os arquivos que se quer enviar para o 
+repositório através do cmd. 
+3. cd (Ir para a pasta)
+dir (lista os arquivos dentro da pasta)
+4. É necessário se certificar de que não exista arquivo .git dentro deste
+repositório para não haver conflito, para verificar será necessário 
+utilizar o comando abaixo:
+rd .git /S/Q
+
+*Ao apresentar "O sistema não pode encontrar o arquivo especificado", quer dizer que
+não há nenhum arquivo .git
+5. Iniciar o repositório git neste local, colocar o comando: git init
+6. Após, adicionar os arquivos que se deseja o envio colocando o comando: git add .
+
+--> "git add." quer dizer que adicione todos os arquivos 
+7. git commit - m "Primeiro commit".
+*Irá mostrar os arquivos que serão enviados.
+
+8. git remote add origin "link do repositório concedido pelo git hub".
+9. git push -u origin master (Nesta etapa, todos os arquivos serão enviados para o repositório.
+10. Apertar F5 ou atualizar a página. 
+.
+
+
