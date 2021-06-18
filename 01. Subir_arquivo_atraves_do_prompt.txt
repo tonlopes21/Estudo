@@ -20,7 +20,7 @@ não há nenhum arquivo .git
 
 8. git remote add origin "link do repositório concedido pelo git hub".
 9. git push -u origin master (Nesta etapa, todos os arquivos serão enviados para o repositório.
-10. Apertar F5 ou atualizar a página. 
+10. Apertar F5 ou atualizar a página..
 .
 
 
